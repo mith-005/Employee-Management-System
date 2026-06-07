@@ -358,7 +358,7 @@ public class EmployeeManager
     Connection getConnection()throws SQLException{
         String url ="jdbc:mysql://localhost:3306/project";
         String username ="root";
-        String password ="Mith@107";
+        String password ="<your_password>";
         Connection con = DriverManager.getConnection(url,username,password);
         return con;
         
